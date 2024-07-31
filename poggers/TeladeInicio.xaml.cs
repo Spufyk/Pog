@@ -1,7 +1,7 @@
 using System;
 using Microsoft.Maui.Controls;
 
-namespace Pog
+namespace poggers
 {
     public partial class MainPage : ContentPage
     {
