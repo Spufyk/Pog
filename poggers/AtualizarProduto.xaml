@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="poggers.AtualizarProduto"
+             BackgroundColor="#2C2F33">
+    <StackLayout Padding="20">
+        <Label Text="Atualizar Produto" 
+               HorizontalOptions="Center"
+               TextColor="White"
+               FontSize="Large"/>
+        
+        <Frame BackgroundColor="#3D4147"
+               CornerRadius="10"
+               Padding="20">
+            <StackLayout>
+                <Label Text="Editar Produto:" 
+                       TextColor="White"
+                       FontSize="Medium"/>
+                
+                <Entry Placeholder="Código"
+                       x:Name="CodigoEntry"
+                       TextColor="White"
+                       PlaceholderColor="Gray"
+                       BackgroundColor="#2C2F33"/>
+                
+                <Entry Placeholder="Descrição do Produto"
+                       x:Name="DescricaoEntry"
+                       TextColor="White"
+                       PlaceholderColor="Gray"
+                       BackgroundColor="#2C2F33"/>
+
+                <StackLayout Orientation="Horizontal">
+                    <Entry Placeholder="Qtde"
+                           x:Name="QuantidadeEntry"
+                           WidthRequest="100"
+                           TextColor="White"
+                           PlaceholderColor="Gray"
+                           BackgroundColor="#2C2F33"/>
+                    
+                    <Entry Placeholder="R$ Unit."
+                           x:Name="PrecoUnitarioEntry"
+                           WidthRequest="100"
+                           TextColor="White"
+                           PlaceholderColor="Gray"
+                           BackgroundColor="#2C2F33"/>
+                    
+                    <Entry Placeholder="R$ Total"
+                           x:Name="PrecoTotalEntry"
+                           WidthRequest="100"
+                           TextColor="White"
+                           PlaceholderColor="Gray"
+                           BackgroundColor="#2C2F33"/>
+                </StackLayout>
+
+                <Label Text="Enviar nova imagem:"
+                       TextColor="White"/>
+                
+                <StackLayout Orientation="Horizontal"
+                             Spacing="20">
+                    <Button Text="Upload"
+                            x:Name="UploadButton"
+                            BackgroundColor="White"
+                            TextColor="Black"/>
+                    <BoxView WidthRequest="100"
+                             HeightRequest="100"
+                             BackgroundColor="White"/>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal"
+                             HorizontalOptions="Center"
+                             Spacing="20">
+                    <Button Text="Voltar"
+                            x:Name="VoltarButton"
+                            BackgroundColor="#3B82F6"
+                            TextColor="White"/>
+                    <Button Text="Atualizar"
+                            x:Name="AtualizarButton"
+                            BackgroundColor="#22C55E"
+                            TextColor="White"/>
+                </StackLayout>
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+</ContentPage>

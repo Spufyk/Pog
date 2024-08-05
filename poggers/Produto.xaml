@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="poggers.Produto"
+             BackgroundColor="#2C2F33">
+    <StackLayout Padding="20">
+        <Label Text="Produto" 
+               HorizontalOptions="Center"
+               TextColor="White"
+               FontSize="Large"/>
+        
+        <Frame BackgroundColor="#3D4147"
+               CornerRadius="10"
+               Padding="20">
+            <StackLayout>
+                <Label Text="Produtos" 
+                       HorizontalOptions="Center"
+                       TextColor="White"
+                       FontSize="Medium"/>
+                
+                <Entry Placeholder="Procurar Produto"
+                       x:Name="SearchEntry"
+                       TextColor="White"
+                       PlaceholderColor="Gray"
+                       BackgroundColor="#2C2F33"/>
+                
+                <Button Text="Cadastrar Novo"
+                        x:Name="CadastrarNovoButton"
+                        BackgroundColor="#22C55E"
+                        TextColor="White"
+                        HorizontalOptions="Center"/>
+                
+                <StackLayout Spacing="10">
+                    <!-- Produto 1 -->
+                    <Frame BackgroundColor="White"
+                           CornerRadius="10">
+                        <StackLayout Orientation="Horizontal"
+                                     Padding="10">
+                            <Image Source="placeholder.png"
+                                   WidthRequest="40"
+                                   HeightRequest="40"/>
+                            <Label Text="Produto X"
+                                   VerticalOptions="Center"/>
+                            <StackLayout Orientation="Horizontal"
+                                         HorizontalOptions="EndAndExpand"
+                                         VerticalOptions="Center"
+                                         Spacing="10">
+                                <Label Text="Editar"
+                                       TextColor="Blue"/>
+                                <Label Text="/"
+                                       TextColor="Black"/>
+                                <Label Text="Excluir"
+                                       TextColor="Red"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+
+                    <!-- Produto 2 -->
+                    <Frame BackgroundColor="White"
+                           CornerRadius="10">
+                        <StackLayout Orientation="Horizontal"
+                                     Padding="10">
+                            <Image Source="placeholder.png"
+                                   WidthRequest="40"
+                                   HeightRequest="40"/>
+                            <Label Text="Produto Y"
+                                   VerticalOptions="Center"/>
+                            <StackLayout Orientation="Horizontal"
+                                         HorizontalOptions="EndAndExpand"
+                                         VerticalOptions="Center"
+                                         Spacing="10">
+                                <Label Text="Editar"
+                                       TextColor="Blue"/>
+                                <Label Text="/"
+                                       TextColor="Black"/>
+                                <Label Text="Excluir"
+                                       TextColor="Red"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+
+                    <!-- Produto 3 -->
+                    <Frame BackgroundColor="White"
+                           CornerRadius="10">
+                        <StackLayout Orientation="Horizontal"
+                                     Padding="10">
+                            <Image Source="placeholder.png"
+                                   WidthRequest="40"
+                                   HeightRequest="40"/>
+                            <Label Text="Produto W"
+                                   VerticalOptions="Center"/>
+                            <StackLayout Orientation="Horizontal"
+                                         HorizontalOptions="EndAndExpand"
+                                         VerticalOptions="Center"
+                                         Spacing="10">
+                                <Label Text="Editar"
+                                       TextColor="Blue"/>
+                                <Label Text="/"
+                                       TextColor="Black"/>
+                                <Label Text="Excluir"
+                                       TextColor="Red"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+
+                    <!-- Produto 4 -->
+                    <Frame BackgroundColor="White"
+                           CornerRadius="10">
+                        <StackLayout Orientation="Horizontal"
+                                     Padding="10">
+                            <Image Source="placeholder.png"
+                                   WidthRequest="40"
+                                   HeightRequest="40"/>
+                            <Label Text="Produto Z"
+                                   VerticalOptions="Center"/>
+                            <StackLayout Orientation="Horizontal"
+                                         HorizontalOptions="EndAndExpand"
+                                         VerticalOptions="Center"
+                                         Spacing="10">
+                                <Label Text="Editar"
+                                       TextColor="Blue"/>
+                                <Label Text="/"
+                                       TextColor="Black"/>
+                                <Label Text="Excluir"
+                                       TextColor="Red"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+
+                <Button Text="Voltar"
+                        x:Name="VoltarButton"
+                        BackgroundColor="#3B82F6"
+                        TextColor="White"
+                        HorizontalOptions="Center"/>
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+</ContentPage>
