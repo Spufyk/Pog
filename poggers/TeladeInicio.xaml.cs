@@ -3,9 +3,9 @@ using Microsoft.Maui.Controls;
 
 namespace poggers
 {
-    public partial class MainPage : ContentPage
+    public partial class TeladeInicio : ContentPage
     {
-        public MainPage()
+        public TeladeInicio()
         {
             InitializeComponent();
         }
