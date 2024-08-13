@@ -14,7 +14,7 @@ namespace poggers
         {
             // Handle Cadastrar Novo button click
             // For example, Navigation.PushAsync(new CadastrarClientePage());
-            Navigation.PushAsync(new CadastrarClientePage());
+            Navigation.PushAsync(new CadastrarCliente());
         }
 
         private void OnVoltarClicked(object sender, EventArgs e)

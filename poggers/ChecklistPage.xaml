@@ -17,6 +17,7 @@
 
         <StackLayout Grid.Row="1" Padding="20" Spacing="15">
             <Label Text="Checklist" TextColor="White" FontSize="24" HorizontalOptions="Center" />
+        </StackLayout>
 
             <StackLayout Orientation="Horizontal" BackgroundColor="White" Padding="5" Margin="0,0,0,10">
                 <Image Source="search_icon.png" WidthRequest="24" HeightRequest="24" VerticalOptions="Center" />
@@ -56,3 +57,6 @@
 
             <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="20" Margin="0,20,0,0">
                 <Button Text="Voltar" BackgroundColor="#0000FF" TextColor="White"></Button>
+            </StackLayout>
+    </Grid>
+</ContentPage>

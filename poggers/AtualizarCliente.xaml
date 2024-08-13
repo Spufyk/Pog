@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="poggers.AtualizarClientePage"
+             x:Class="poggers.AtualizarCliente"
              BackgroundColor="#333333"
+             Shell.NavBarIsVisible="false"
              Title="Atualizar Cliente">
 
     <Grid>
@@ -31,29 +32,88 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
-                <Label Grid.Row="0" Grid.Column="0" Text="Nome:" TextColor="White"/>
-                <Entry Grid.Row="0" Grid.Column="1" Placeholder="xxxx" BackgroundColor="White" TextColor="Black"/>
+                <Label Grid.Row="0"
+                    Grid.Column="0"
+                    Text="Nome:"
+                    TextColor="White"/>
 
-                <Label Grid.Row="1" Grid.Column="0" Text="E-mail:" TextColor="White"/>
-                <Entry Grid.Row="1" Grid.Column="1" Placeholder="xxxx" BackgroundColor="White" TextColor="Black"/>
+                <Entry Grid.Row="0"
+                    Grid.Column="1"
+                    Placeholder="xxxx"
+                    BackgroundColor="White"
+                    TextColor="Black"/>
 
-                <Label Grid.Row="2" Grid.Column="0" Text="Fone/Celular:" TextColor="White"/>
-                <Entry Grid.Row="2" Grid.Column="1" Placeholder="xxxx" BackgroundColor="White" TextColor="Black"/>
+                <Label Grid.Row="1"
+                    Grid.Column="0"
+                    Text="E-mail:"
+                    TextColor="White"/>
 
-                <Label Grid.Row="3" Grid.Column="0" Text="CPF/CNPJ:" TextColor="White"/>
-                <Entry Grid.Row="3" Grid.Column="1" Placeholder="xxxx" BackgroundColor="White" TextColor="Black"/>
+                <Entry Grid.Row="1"
+                    Grid.Column="1"
+                    Placeholder="xxxx"
+                    BackgroundColor="White"
+                    TextColor="Black"/>
 
-                <Label Grid.Row="4" Grid.Column="0" Text="Dt.Nascimento:" TextColor="White"/>
-                <Entry Grid.Row="4" Grid.Column="1" Placeholder="xxxx" BackgroundColor="White" TextColor="Black"/>
+                <Label Grid.Row="2"
+                        Grid.Column="0"
+                        Text="Fone/Celular:"
+                        TextColor="White"/>
 
-                <Label Grid.Row="5" Grid.Column="0" Text="CEP:" TextColor="White"/>
-                <Entry Grid.Row="5" Grid.Column="1" Placeholder="xxxx" BackgroundColor="White" TextColor="Black"/>
+                <Entry Grid.Row="2"
+                    Grid.Column="1"
+                    Placeholder="xxxx"
+                    BackgroundColor="White"
+                    TextColor="Black"/>
 
-                <Label Grid.Row="6" Grid.Column="0" Text="Cidade:" TextColor="White"/>
-                <Entry Grid.Row="6" Grid.Column="1" Placeholder="xxxx" BackgroundColor="White" TextColor="Black"/>
+                <Label Grid.Row="3"
+                    Grid.Column="0"
+                    Text="CPF/CNPJ:"
+                    TextColor="White"/>
+                
+                <Entry Grid.Row="3"
+                    Grid.Column="1"
+                    Placeholder="xxxx" 
+                    BackgroundColor="White"
+                    TextColor="Black"/>
+
+                <Label Grid.Row="4" 
+                    Grid.Column="0"
+                    Text="Dt.Nascimento:"
+                    TextColor="White"/>
+
+                <Entry Grid.Row="4"
+                    Grid.Column="1"
+                    Placeholder="xxxx"
+                    BackgroundColor="White"
+                    TextColor="Black"/>
+
+                <Label Grid.Row="5"
+                    Grid.Column="0"
+                    Text="CEP:"
+                    TextColor="White"/>
+
+                <Entry Grid.Row="5"
+                    Grid.Column="1"
+                    Placeholder="xxxx"
+                    BackgroundColor="White"
+                    TextColor="Black"/>
+
+                <Label Grid.Row="6"
+                    Grid.Column="0"
+                    Text="Cidade:"
+                    TextColor="White"/>
+
+                <Entry Grid.Row="6"
+                    Grid.Column="1"
+                    Placeholder="xxxx"
+                    BackgroundColor="White"
+                    TextColor="Black"/>
             </Grid>
 
-            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="20" Margin="0,20,0,0">
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="Center"
+                         Spacing="20"
+                         Margin="0,20,0,0">
                 <Button Text="Voltar" BackgroundColor="#0000FF" TextColor="White" WidthRequest="100" HeightRequest="50"/>
                 <Button Text="Atualizar" BackgroundColor="#00FF00" TextColor="White" WidthRequest="100" HeightRequest="50"/>
             </StackLayout>
