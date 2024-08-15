@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="poggers.AtualizarCliente"
              BackgroundColor="#333333"
+             Shell.NavBarIsVisible="false"
              Title="Atualizar Cliente">
 
     <Grid>
@@ -18,7 +19,7 @@
                VerticalOptions="Center"
                HorizontalOptions="Center" 
                TextColor="White"
-               FontSize="20" />
+               FontSize="20"/>
 
         <StackLayout Grid.Row="1"
                      Padding="20"

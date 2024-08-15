@@ -2,33 +2,42 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="poggers.Produto"
+             Shell.NavBarIsVisible="false"
              BackgroundColor="#2C2F33">
-    <StackLayout Padding="20">
-        <Label Text="Produto" 
+
+    <StackLayout Padding="30">
+        <Label Text="Produtos" 
                HorizontalOptions="Center"
+               VerticalOptions="Center"
                TextColor="White"
-               FontSize="Large"/>
+               FontSize="Large"
+               FontFamily="OpenSans-Semibold"
+               Margin="0,0,0,15"/>
         
         <Frame BackgroundColor="#3D4147"
                CornerRadius="10"
                Padding="20">
             <StackLayout>
-                <Label Text="Produtos" 
+                <Label Text="Lista de Produtos:" 
                        HorizontalOptions="Center"
                        TextColor="White"
-                       FontSize="Medium"/>
+                       FontSize="Medium"
+                       FontFamily="Large"
+                       Margin="0,10,0,20"/>
                 
-                <Entry Placeholder="Procurar Produto"
+                <Entry Placeholder="Procurar Produto:"
                        x:Name="SearchEntry"
                        TextColor="White"
                        PlaceholderColor="Gray"
-                       BackgroundColor="#2C2F33"/>
+                       BackgroundColor="#2C2F33"
+                       Margin="0,0,0,15"/>
                 
                 <Button Text="Cadastrar Novo"
                         x:Name="CadastrarNovoButton"
                         BackgroundColor="#22C55E"
                         TextColor="White"
-                        HorizontalOptions="Center"/>
+                        HorizontalOptions="Center"
+                        Margin="0,5,0,15"/>
                 
                 <StackLayout Spacing="10">
                     <!-- Produto 1 -->
@@ -132,7 +141,9 @@
                         x:Name="VoltarButton"
                         BackgroundColor="#3B82F6"
                         TextColor="White"
-                        HorizontalOptions="Center"/>
+                        HorizontalOptions="Center"
+                        VerticalOptions="End"
+                        Margin="0,20,0,0"/>
             </StackLayout>
         </Frame>
     </StackLayout>
