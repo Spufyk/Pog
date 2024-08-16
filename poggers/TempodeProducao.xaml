@@ -20,7 +20,7 @@
 
             <StackLayout Orientation="Horizontal" BackgroundColor="White" Padding="5" Margin="0,0,0,10">
                 <Image Source="search_icon.png" WidthRequest="24" HeightRequest="24" VerticalOptions="Center" />
-                <Entry Placeholder="Procurar :" BackgroundColor="White" TextColor="Black" />
+                <Entry Placeholder="Procurar" BackgroundColor="White" TextColor="Black" />
             </StackLayout>
 
             <Grid>
@@ -35,20 +35,20 @@
                     <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
 
-                <Label Grid.Row="0" Grid.Column="0" Text="Cliente X" TextColor="White" BackgroundColor="#444444" VerticalTextAlignment="Center" Padding="10" />
+                <Label Grid.Row="0" Grid.Column="0" Text="Cliente X" FontSize="20" TextColor="White" BackgroundColor="#444444" VerticalTextAlignment="Center" Padding="10" />
                 <Label Grid.Row="0" Grid.Column="1" Text="XXXX" TextColor="White" BackgroundColor="#444444" VerticalTextAlignment="Center" Padding="10" />
 
-                <Label Grid.Row="1" Grid.Column="0" Text="Cliente Y" TextColor="White" BackgroundColor="#555555" VerticalTextAlignment="Center" Padding="10" />
+                <Label Grid.Row="1" Grid.Column="0" Text="Cliente Y" FontSize="20" TextColor="White" BackgroundColor="#555555" VerticalTextAlignment="Center" Padding="10" />
                 <Label Grid.Row="1" Grid.Column="1" Text="XXXX" TextColor="White" BackgroundColor="#555555" VerticalTextAlignment="Center" Padding="10" />
 
-                <Label Grid.Row="2" Grid.Column="0" Text="Cliente W" TextColor="White" BackgroundColor="#666666" VerticalTextAlignment="Center" Padding="10" />
+                <Label Grid.Row="2" Grid.Column="0" Text="Cliente W" FontSize="20" TextColor="White" BackgroundColor="#666666" VerticalTextAlignment="Center" Padding="10" />
                 <Label Grid.Row="2" Grid.Column="1" Text="XXXX" TextColor="White" BackgroundColor="#666666" VerticalTextAlignment="Center" Padding="10" />
 
-                <Label Grid.Row="3" Grid.Column="0" Text="Cliente Z" TextColor="White" BackgroundColor="#777777" VerticalTextAlignment="Center" Padding="10" />
+                <Label Grid.Row="3" Grid.Column="0" Text="Cliente Z" FontSize="20" TextColor="White" BackgroundColor="#777777" VerticalTextAlignment="Center" Padding="10" />
                 <Label Grid.Row="3" Grid.Column="1" Text="XXXX" TextColor="White" BackgroundColor="#777777" VerticalTextAlignment="Center" Padding="10" />
             </Grid>
 
-            <Button Text="Voltar" BackgroundColor="#0000FF" TextColor="White" WidthRequest="100" HeightRequest="50" HorizontalOptions="Center" Margin="0,20,0,0" Clicked="OnVoltarClicked"/>
+            <Button Text="Voltar" BackgroundColor="#0000FF" FontSize="20" WidthRequest="100" HeightRequest="50" HorizontalOptions="Center" Margin="0,20,0,0" Clicked="OnVoltarClicked"/>
         </StackLayout>
     </Grid>
 </ContentPage>
