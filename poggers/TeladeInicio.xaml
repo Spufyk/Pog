@@ -21,28 +21,32 @@
                     BackgroundColor="White"
                     TextColor="Black" 
                     WidthRequest="200"
-                    HeightRequest="50"/>
+                    HeightRequest="50"
+                    Clicked="OnTelaChecklistClicked"/>
 
             <Button Text="Tempo de produção"
                     BackgroundColor="White"
                     TextColor="Black"
                     WidthRequest="200"
                     HeightRequest="50"
-                    Margin="0,10,0,0"/>
+                    Margin="0,10,0,0"
+                    Clicked="OnTelaTempodeProducaoClicked"/>
 
             <Button Text="Cliente"
                     BackgroundColor="White"
                     TextColor="Black"
                     WidthRequest="200"
                     HeightRequest="50"
-                    Margin="0,10,0,0"/>
+                    Margin="0,10,0,0"
+                    Clicked="OnTelaClienteClicked"/>
 
             <Button Text="Produto"
                     BackgroundColor="White"
                     TextColor="Black"
                     WidthRequest="200"
                     HeightRequest="50"
-                    Margin="0,10,0,0"/>
+                    Margin="0,10,0,0"
+                    Clicked="OnTelaProdutoClicked"/>
         </StackLayout>
         
     </Grid>

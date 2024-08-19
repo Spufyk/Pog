@@ -19,9 +19,7 @@ namespace poggers
 
         private void OnVoltarClicked(object sender, EventArgs e)
         {
-            // Handle Voltar button click
-            // For example, Navigation.PopAsync();
-            Navigation.PopAsync();
+            Application.Current.MainPage = new TeladeInicio();
         }
     }
 }

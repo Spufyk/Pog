@@ -5,6 +5,7 @@
              Shell.NavBarIsVisible="false"
              BackgroundColor="#2C2F33">
 
+<ScrollView>
     <StackLayout Padding="30">
         <Label Text="Produtos" 
                HorizontalOptions="Center"
@@ -138,7 +139,7 @@
                 </StackLayout>
 
                 <Button Text="Voltar"
-                        x:Name="VoltarButton"
+                        Clicked="VoltarButton_Clicked"
                         BackgroundColor="#3B82F6"
                         TextColor="White"
                         HorizontalOptions="Center"
@@ -147,4 +148,5 @@
             </StackLayout>
         </Frame>
     </StackLayout>
+    </ScrollView>
 </ContentPage>

@@ -11,7 +11,7 @@ namespace poggers
 
         private void VoltarButton_Clicked(object sender, EventArgs e)
         {
-            // Lógica para o botão Voltar
+           Application.Current.MainPage = new TeladeInicio();
         }
 
         private void CadastrarNovoButton_Clicked(object sender, EventArgs e)

@@ -130,7 +130,9 @@
                         BackgroundColor="#0000FF"
                         TextColor="White"
                         WidthRequest="100"
-                        HeightRequest="50"/>
+                        HeightRequest="50"
+                        Clicked="OnVoltarClicked"/>
+                        
                 <Button Text="Atualizar"
                         BackgroundColor="#00FF00"
                         TextColor="White"

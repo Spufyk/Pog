@@ -6,6 +6,7 @@
              Shell.NavBarIsVisible="false"
              Title="Tempo de produção">
 
+<ScrollView>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="60" />
@@ -13,18 +14,30 @@
         </Grid.RowDefinitions>
 
         <BoxView Grid.Row="0" Color="#808080" />
-        <Label Grid.Row="0" Text="Tempo de produção:" VerticalOptions="Center" HorizontalOptions="Center" TextColor="White" FontSize="20" FontFamily="OpenSans-Semibold" />
+        <Label Grid.Row="0" Text="Tempo de produção" VerticalOptions="Center" HorizontalOptions="Center" TextColor="White" FontSize="20" FontFamily="OpenSans-Semibold" />
 
         <StackLayout Grid.Row="1" Padding="20" Spacing="15">
             <Label Text="Verificar Produção Média Diária:" TextColor="White" FontSize="24" HorizontalOptions="Center" />
 
             <StackLayout Orientation="Horizontal" BackgroundColor="White" Padding="5" Margin="0,0,0,10">
                 <Image Source="search_icon.png" WidthRequest="24" HeightRequest="24" VerticalOptions="Center" />
-                <Entry Placeholder="Procurar" BackgroundColor="White" TextColor="Black" />
+                <Entry Placeholder="Procurar                                                                                                              |" BackgroundColor="White" TextColor="Black" Margin="20,0"/>
             </StackLayout>
 
             <Grid>
                 <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
                     <RowDefinition Height="Auto" />
                     <RowDefinition Height="Auto" />
                     <RowDefinition Height="Auto" />
@@ -35,20 +48,57 @@
                     <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
 
-                <Label Grid.Row="0" Grid.Column="0" Text="Cliente X" FontSize="20" TextColor="White" BackgroundColor="#444444" VerticalTextAlignment="Center" Padding="10" />
-                <Label Grid.Row="0" Grid.Column="1" Text="XXXX" TextColor="White" BackgroundColor="#444444" VerticalTextAlignment="Center" Padding="10" />
+                <Label Grid.Row="0" Grid.Column="0" Text="Cliente A" FontSize="20" TextColor="White" BackgroundColor="#444444" VerticalTextAlignment="Center" Padding="10" />
+                <Label Grid.Row="0" Grid.Column="1" Text="XXXX" HorizontalTextAlignment="End" TextColor="White" BackgroundColor="#444444" VerticalTextAlignment="Center" Padding="10" />
 
-                <Label Grid.Row="1" Grid.Column="0" Text="Cliente Y" FontSize="20" TextColor="White" BackgroundColor="#555555" VerticalTextAlignment="Center" Padding="10" />
-                <Label Grid.Row="1" Grid.Column="1" Text="XXXX" TextColor="White" BackgroundColor="#555555" VerticalTextAlignment="Center" Padding="10" />
+                <Label Grid.Row="1" Grid.Column="0" Text="Cliente B" FontSize="20" TextColor="White" BackgroundColor="#555555" VerticalTextAlignment="Center" Padding="10" />
+                <Label Grid.Row="1" Grid.Column="1" Text="XXXX" HorizontalTextAlignment="End" TextColor="White" BackgroundColor="#555555" VerticalTextAlignment="Center" Padding="10" />
 
-                <Label Grid.Row="2" Grid.Column="0" Text="Cliente W" FontSize="20" TextColor="White" BackgroundColor="#666666" VerticalTextAlignment="Center" Padding="10" />
-                <Label Grid.Row="2" Grid.Column="1" Text="XXXX" TextColor="White" BackgroundColor="#666666" VerticalTextAlignment="Center" Padding="10" />
+                <Label Grid.Row="2" Grid.Column="0" Text="Cliente C" FontSize="20" TextColor="White" BackgroundColor="#666666" VerticalTextAlignment="Center" Padding="10" />
+                <Label Grid.Row="2" Grid.Column="1" Text="XXXX" HorizontalTextAlignment="End" TextColor="White" BackgroundColor="#666666" VerticalTextAlignment="Center" Padding="10" />
 
-                <Label Grid.Row="3" Grid.Column="0" Text="Cliente Z" FontSize="20" TextColor="White" BackgroundColor="#777777" VerticalTextAlignment="Center" Padding="10" />
-                <Label Grid.Row="3" Grid.Column="1" Text="XXXX" TextColor="White" BackgroundColor="#777777" VerticalTextAlignment="Center" Padding="10" />
+                <Label Grid.Row="3" Grid.Column="0" Text="Cliente D" FontSize="20" TextColor="White" BackgroundColor="#777777" VerticalTextAlignment="Center" Padding="10" />
+                <Label Grid.Row="3" Grid.Column="1" Text="XXXX" HorizontalTextAlignment="End" TextColor="White" BackgroundColor="#777777" VerticalTextAlignment="Center" Padding="10" />
+            
+                <Label Grid.Row="4" Grid.Column="0" Text="Cliente E" FontSize="20" TextColor="White" BackgroundColor="#444444" VerticalTextAlignment="Center" Padding="10" />
+                <Label Grid.Row="4" Grid.Column="1" Text="XXXX" HorizontalTextAlignment="End" TextColor="White" BackgroundColor="#444444" VerticalTextAlignment="Center" Padding="10" />
+
+                <Label Grid.Row="5" Grid.Column="0" Text="Cliente F" FontSize="20" TextColor="White" BackgroundColor="#555555" VerticalTextAlignment="Center" Padding="10" />
+                <Label Grid.Row="5" Grid.Column="1" Text="XXXX" HorizontalTextAlignment="End" TextColor="White" BackgroundColor="#555555" VerticalTextAlignment="Center" Padding="10" />
+
+                <Label Grid.Row="6" Grid.Column="0" Text="Cliente G" FontSize="20" TextColor="White" BackgroundColor="#666666" VerticalTextAlignment="Center" Padding="10" />
+                <Label Grid.Row="6" Grid.Column="1" Text="XXXX" HorizontalTextAlignment="End" TextColor="White" BackgroundColor="#666666" VerticalTextAlignment="Center" Padding="10" />
+
+                <Label Grid.Row="7" Grid.Column="0" Text="Cliente H" FontSize="20" TextColor="White" BackgroundColor="#777777" VerticalTextAlignment="Center" Padding="10" />
+                <Label Grid.Row="7" Grid.Column="1" Text="XXXX" HorizontalTextAlignment="End" TextColor="White" BackgroundColor="#777777" VerticalTextAlignment="Center" Padding="10" />
+
+                <Label Grid.Row="8" Grid.Column="0" Text="Cliente I" FontSize="20" TextColor="White" BackgroundColor="#444444" VerticalTextAlignment="Center" Padding="10" />
+                <Label Grid.Row="8" Grid.Column="1" Text="XXXX" HorizontalTextAlignment="End" TextColor="White" BackgroundColor="#444444" VerticalTextAlignment="Center" Padding="10" />
+
+                <Label Grid.Row="8" Grid.Column="0" Text="Cliente J" FontSize="20" TextColor="White" BackgroundColor="#555555" VerticalTextAlignment="Center" Padding="10" />
+                <Label Grid.Row="8" Grid.Column="1" Text="XXXX" HorizontalTextAlignment="End" TextColor="White" BackgroundColor="#555555" VerticalTextAlignment="Center" Padding="10" />
+
+                <Label Grid.Row="9" Grid.Column="0" Text="Cliente K" FontSize="20" TextColor="White" BackgroundColor="#666666" VerticalTextAlignment="Center" Padding="10" />
+                <Label Grid.Row="9" Grid.Column="1" Text="XXXX" HorizontalTextAlignment="End" TextColor="White" BackgroundColor="#666666" VerticalTextAlignment="Center" Padding="10" />
+
+                <Label Grid.Row="9" Grid.Column="0" Text="Cliente L" FontSize="20" TextColor="White" BackgroundColor="#777777" VerticalTextAlignment="Center" Padding="10" />
+                <Label Grid.Row="9" Grid.Column="1" Text="XXXX" HorizontalTextAlignment="End" TextColor="White" BackgroundColor="#777777" VerticalTextAlignment="Center" Padding="10" />
+
+                <Label Grid.Row="10" Grid.Column="0" Text="Cliente M" FontSize="20" TextColor="White" BackgroundColor="#444444" VerticalTextAlignment="Center" Padding="10" />
+                <Label Grid.Row="10" Grid.Column="1" Text="XXXX" HorizontalTextAlignment="End" TextColor="White" BackgroundColor="#444444" VerticalTextAlignment="Center" Padding="10" />
+
+                <Label Grid.Row="11" Grid.Column="0" Text="Cliente N" FontSize="20" TextColor="White" BackgroundColor="#555555" VerticalTextAlignment="Center" Padding="10" />
+                <Label Grid.Row="11" Grid.Column="1" Text="XXXX" HorizontalTextAlignment="End" TextColor="White" BackgroundColor="#555555" VerticalTextAlignment="Center" Padding="10" />
+
+                <Label Grid.Row="12" Grid.Column="0" Text="Cliente O" FontSize="20" TextColor="White" BackgroundColor="#666666" VerticalTextAlignment="Center" Padding="10" />
+                <Label Grid.Row="12" Grid.Column="1" Text="XXXX" HorizontalTextAlignment="End" TextColor="White" BackgroundColor="#666666" VerticalTextAlignment="Center" Padding="10" />
+
+                <Label Grid.Row="13" Grid.Column="0" Text="Cliente P" FontSize="20" TextColor="White" BackgroundColor="#777777" VerticalTextAlignment="Center" Padding="10" />
+                <Label Grid.Row="13" Grid.Column="1" Text="XXXX" HorizontalTextAlignment="End" TextColor="White" BackgroundColor="#777777" VerticalTextAlignment="Center" Padding="10" />
             </Grid>
 
             <Button Text="Voltar" BackgroundColor="#0000FF" FontSize="20" WidthRequest="100" HeightRequest="50" HorizontalOptions="Center" Margin="0,20,0,0" Clicked="OnVoltarClicked"/>
         </StackLayout>
     </Grid>
+    </ScrollView>
 </ContentPage>

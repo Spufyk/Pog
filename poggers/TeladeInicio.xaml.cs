@@ -11,24 +11,24 @@ namespace poggers
         }
         
         // Add event handlers for buttons if needed
-        private void OnChecklistClicked(object sender, EventArgs e)
+        private void OnTelaChecklistClicked(object sender, EventArgs e)
         {
-            // Handle Checklist button click
+            Application.Current.MainPage = new ChecklistPage();
         }
         
-        private void OnTempoDeProducaoClicked(object sender, EventArgs e)
+        private void OnTelaTempodeProducaoClicked(object sender, EventArgs e)
         {
-            // Handle Tempo de produção button click
+            Application.Current.MainPage = new TempodeProducao();
         }
         
-        private void OnClienteClicked(object sender, EventArgs e)
+        private void OnTelaClienteClicked(object sender, EventArgs e)
         {
-            // Handle Cliente button click
+            Application.Current.MainPage = new ClientesPage();
         }
         
-        private void OnProdutoClicked(object sender, EventArgs e)
+        private void OnTelaProdutoClicked(object sender, EventArgs e)
         {
-            // Handle Produto button click
+            Application.Current.MainPage = new Produto();
         }
     }
 }

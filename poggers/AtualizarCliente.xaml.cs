@@ -13,14 +13,12 @@ namespace poggers
         // Add event handlers for buttons if needed
         private void OnVoltarClicked(object sender, EventArgs e)
         {
-            // Handle Voltar button click
-            // For example, Navigation.PopAsync();
+            Application.Current.MainPage = new TeladeInicio();
         }
 
         private void OnAtualizarClicked(object sender, EventArgs e)
         {
-            // Handle Atualizar button click
-            // Implement update logic
+           //nada
         }
     }
 }
