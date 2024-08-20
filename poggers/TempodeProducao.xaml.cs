@@ -14,5 +14,10 @@ namespace poggers
         {
         Application.Current.MainPage = new TeladeInicio();
         }   
+
+        void ClienteBusca(object sender, EventArgs e)  
+        {
+        
+        }   
     }
 }
