@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="poggers.ChecklistPage"
              BackgroundColor="#333333"
-             Title="Checklist">
+             Shell.NavBarIsVisible="False">
 
     <Grid Padding="20"
             RowSpacing="10"
@@ -23,7 +23,8 @@
         <!-- Header -->
         <Label Text="Checklist"
                Grid.Row="0"
-               FontSize="24"
+               FontSize="40"
+               FontFamily="OpenSans-Semibold"
                TextColor="White"
                HorizontalOptions="Center"
                Margin="0,10,0,20"/>
@@ -41,61 +42,160 @@
                Padding="10"
                HasShadow="True"
                Margin="0,20">
+        <ScrollView>
             <StackLayout Spacing="15">
                 <StackLayout Orientation="Horizontal"
                         Spacing="20">
-                    <Label Text="Produto X"
-                            VerticalOptions="Center"/>
-                    <CheckBox x:Name="ProdutoXCheckBox"
+                    <Label Text="Produto A"
+                            VerticalOptions="Center"
+                            FontSize="20"/>
+                    <CheckBox x:Name="ProdutoACheckBox"
                             IsChecked="True"
                             VerticalOptions="Center"/>
                 </StackLayout>
 
                 <StackLayout Orientation="Horizontal"
                         Spacing="20">
-                    <Label Text="Produto Y"
-                            VerticalOptions="Center"/>
-                    <CheckBox x:Name="ProdutoYCheckBox"
+                    <Label Text="Produto B"
+                            VerticalOptions="Center"
+                            FontSize="20"/>
+                    <CheckBox x:Name="ProdutoBCheckBox"
                             IsChecked="True"
                             VerticalOptions="Center"/>
                 </StackLayout>
 
                 <StackLayout Orientation="Horizontal"
                         Spacing="20">
-                    <Label Text="Produto W"
-                            VerticalOptions="Center"/>
-                    <CheckBox x:Name="ProdutoWCheckBox"
+                    <Label Text="Produto C"
+                            VerticalOptions="Center"
+                            FontSize="20"/>
+                    <CheckBox x:Name="ProdutoCCheckBox"
                             IsChecked="True"
                             VerticalOptions="Center"/>
                 </StackLayout>
 
                 <StackLayout Orientation="Horizontal"
                         Spacing="20">
-                    <Label Text="Produto Z"
-                            VerticalOptions="Center"/>
-                    <CheckBox x:Name="ProdutoZCheckBox"
+                    <Label Text="Produto D"
+                            VerticalOptions="Center"
+                            FontSize="20"/>
+                    <CheckBox x:Name="ProdutoDCheckBox"
                             IsChecked="True"
                             VerticalOptions="Center"/>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal"
+                        Spacing="20">
+                    <Label Text="Produto E"
+                            VerticalOptions="Center"
+                            FontSize="20"/>
+                    <CheckBox x:Name="ProdutoECheckBox"
+                            IsChecked="True"
+                            VerticalOptions="Center"/>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal"
+                        Spacing="20">
+                    <Label Text="Produto F"
+                            VerticalOptions="Center"
+                            FontSize="20"/>
+                    <CheckBox x:Name="ProdutoFCheckBox"
+                            IsChecked="True"
+                            VerticalOptions="Center"/>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal"
+                        Spacing="20">
+                    <Label Text="Produto G"
+                            VerticalOptions="Center"
+                            FontSize="20"/>
+                    <CheckBox x:Name="ProdutoGCheckBox"
+                            IsChecked="True"
+                            VerticalOptions="Center"/>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal"
+                        Spacing="20">
+                    <Label Text="Produto H"
+                            VerticalOptions="Center"
+                            FontSize="20"/>
+                    <CheckBox x:Name="ProdutoHCheckBox"
+                            IsChecked="True"
+                            VerticalOptions="Center"/>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal"
+                        Spacing="20">
+                    <Label Text="Produto I"
+                            VerticalOptions="Center"
+                            FontSize="20"/>
+                    <CheckBox x:Name="ProdutoICheckBox"
+                            IsChecked="True"
+                            VerticalOptions="Center"/>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal"
+                        Spacing="20">
+                    <Label Text="Produto J"
+                            VerticalOptions="Center"
+                            FontSize="20"/>
+                    <CheckBox x:Name="ProdutoJCheckBox"
+                            IsChecked="True"
+                            VerticalOptions="Center"/>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal"
+                        Spacing="20">
+                    <Label Text="Produto K"
+                            VerticalOptions="Center"
+                            FontSize="20"/>
+                    <CheckBox x:Name="ProdutoKCheckBox"
+                            IsChecked="True"
+                            VerticalOptions="Center"/>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal"
+                        Spacing="20">
+                    <Label Text="Produto L"
+                            VerticalOptions="Center"
+                            FontSize="20"/>
+                    <CheckBox x:Name="ProdutoLCheckBox"
+                            IsChecked="True"
+                            VerticalOptions="Center"/>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal"
+                        Spacing="20">
+                    <Label Text="Produto M"
+                            VerticalOptions="Center"
+                            FontSize="20"/>
+                    <CheckBox x:Name="ProdutoMCheckBox"
+                            IsChecked="True"
+                            VerticalOptions="Center"
+                            Color="#4F0CC4"/>
                 </StackLayout>
             </StackLayout>
+          </ScrollView>
         </Frame>
 
         <!-- Buttons -->
         <StackLayout Orientation="Horizontal"
                      Grid.Row="3"
                      HorizontalOptions="Center"
-                     Margin="0,20,0,0">
+                     Margin="0,10,0,0"
+                     VerticalOptions="Center">
             <Button Text="Voltar"
-                    BackgroundColor="#0000FF"
+                    BackgroundColor="#4F0CC4"
                     TextColor="White"
                     Clicked="OnVoltarClicked"
-                    Margin="0,0,10,0"/>
+                    Margin="0,0,10,0"
+                    VerticalOptions="Center"/>
             <Button Text="Salvar"
-                    BackgroundColor="#00FF00"
+                    BackgroundColor="#30BF20"
                     TextColor="White"
-                    Clicked="OnSalvarClicked"/>
+                    FontFamily="coolvetica rg it"
+                    Clicked="OnSalvarClicked"
+                    VerticalOptions="Center"/>
         </StackLayout>
-
     </Grid>
-
 </ContentPage>

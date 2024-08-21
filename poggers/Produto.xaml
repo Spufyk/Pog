@@ -5,7 +5,6 @@
              Shell.NavBarIsVisible="false"
              BackgroundColor="#2C2F33">
 
-<ScrollView>
     <StackLayout Padding="30">
         <Label Text="Produtos" 
                HorizontalOptions="Center"
@@ -40,7 +39,12 @@
                         HorizontalOptions="Center"
                         Margin="0,5,0,15"/>
                 
+                
                 <StackLayout Spacing="10">
+                <Frame>
+                <ScrollView>
+                
+
                     <!-- Produto 1 -->
                     <Frame BackgroundColor="White"
                            CornerRadius="10">
@@ -136,7 +140,81 @@
                             </StackLayout>
                         </StackLayout>
                     </Frame>
-                </StackLayout>
+
+                    <!-- Produto 5 -->
+                    <Frame BackgroundColor="White"
+                           CornerRadius="10">
+                        <StackLayout Orientation="Horizontal"
+                                     Padding="10">
+                            <Image Source="placeholder.png"
+                                   WidthRequest="40"
+                                   HeightRequest="40"/>
+                            <Label Text="Produto Z"
+                                   VerticalOptions="Center"/>
+                            <StackLayout Orientation="Horizontal"
+                                         HorizontalOptions="EndAndExpand"
+                                         VerticalOptions="Center"
+                                         Spacing="10">
+                                <Label Text="Editar"
+                                       TextColor="Blue"/>
+                                <Label Text="/"
+                                       TextColor="Black"/>
+                                <Label Text="Excluir"
+                                       TextColor="Red"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+
+                    <!-- Produto 6 -->
+                    <Frame BackgroundColor="White"
+                           CornerRadius="10">
+                        <StackLayout Orientation="Horizontal"
+                                     Padding="10">
+                            <Image Source="placeholder.png"
+                                   WidthRequest="40"
+                                   HeightRequest="40"/>
+                            <Label Text="Produto Z"
+                                   VerticalOptions="Center"/>
+                            <StackLayout Orientation="Horizontal"
+                                         HorizontalOptions="EndAndExpand"
+                                         VerticalOptions="Center"
+                                         Spacing="10">
+                                <Label Text="Editar"
+                                       TextColor="Blue"/>
+                                <Label Text="/"
+                                       TextColor="Black"/>
+                                <Label Text="Excluir"
+                                       TextColor="Red"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+
+                    <!-- Produto 7 -->
+                    <Frame BackgroundColor="White"
+                           CornerRadius="10">
+                        <StackLayout Orientation="Horizontal"
+                                     Padding="10">
+                            <Image Source="placeholder.png"
+                                   WidthRequest="40"
+                                   HeightRequest="40"/>
+                            <Label Text="Produto Z"
+                                   VerticalOptions="Center"/>
+                            <StackLayout Orientation="Horizontal"
+                                         HorizontalOptions="EndAndExpand"
+                                         VerticalOptions="Center"
+                                         Spacing="10">
+                                <Label Text="Editar"
+                                       TextColor="Blue"/>
+                                <Label Text="/"
+                                       TextColor="Black"/>
+                                <Label Text="Excluir"
+                                       TextColor="Red"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+                </ScrollView>
+              </Frame>
+              </StackLayout>
 
                 <Button Text="Voltar"
                         Clicked="VoltarButton_Clicked"
@@ -148,5 +226,4 @@
             </StackLayout>
         </Frame>
     </StackLayout>
-    </ScrollView>
 </ContentPage>
