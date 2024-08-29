@@ -41,7 +41,9 @@
                             VerticalOptions="Center"/>
                     <SearchBar Placeholder="Procurar Cliente"
                                BackgroundColor="White"
-                               Grid.Row="2"/>
+                               Grid.Row="2"
+                               HorizontalOptions="Center"
+                               WidthRequest="500"/>
                 </StackLayout>
 
                 <Grid>

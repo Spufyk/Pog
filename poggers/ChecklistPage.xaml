@@ -50,7 +50,7 @@
                             VerticalOptions="Center"
                             FontSize="20"/>
                     <CheckBox x:Name="ProdutoACheckBox"
-                            IsChecked="True"
+                            IsChecked="False"
                             VerticalOptions="Center"/>
                 </StackLayout>
 
@@ -60,7 +60,7 @@
                             VerticalOptions="Center"
                             FontSize="20"/>
                     <CheckBox x:Name="ProdutoBCheckBox"
-                            IsChecked="True"
+                            IsChecked="False"
                             VerticalOptions="Center"/>
                 </StackLayout>
 
@@ -70,7 +70,7 @@
                             VerticalOptions="Center"
                             FontSize="20"/>
                     <CheckBox x:Name="ProdutoCCheckBox"
-                            IsChecked="True"
+                            IsChecked="False"
                             VerticalOptions="Center"/>
                 </StackLayout>
 
@@ -80,7 +80,7 @@
                             VerticalOptions="Center"
                             FontSize="20"/>
                     <CheckBox x:Name="ProdutoDCheckBox"
-                            IsChecked="True"
+                            IsChecked="False"
                             VerticalOptions="Center"/>
                 </StackLayout>
 
@@ -90,7 +90,7 @@
                             VerticalOptions="Center"
                             FontSize="20"/>
                     <CheckBox x:Name="ProdutoECheckBox"
-                            IsChecked="True"
+                            IsChecked="False"
                             VerticalOptions="Center"/>
                 </StackLayout>
 
@@ -100,7 +100,7 @@
                             VerticalOptions="Center"
                             FontSize="20"/>
                     <CheckBox x:Name="ProdutoFCheckBox"
-                            IsChecked="True"
+                            IsChecked="False"
                             VerticalOptions="Center"/>
                 </StackLayout>
 
@@ -110,7 +110,7 @@
                             VerticalOptions="Center"
                             FontSize="20"/>
                     <CheckBox x:Name="ProdutoGCheckBox"
-                            IsChecked="True"
+                            IsChecked="False"
                             VerticalOptions="Center"/>
                 </StackLayout>
 
@@ -120,7 +120,7 @@
                             VerticalOptions="Center"
                             FontSize="20"/>
                     <CheckBox x:Name="ProdutoHCheckBox"
-                            IsChecked="True"
+                            IsChecked="False"
                             VerticalOptions="Center"/>
                 </StackLayout>
 
@@ -130,7 +130,7 @@
                             VerticalOptions="Center"
                             FontSize="20"/>
                     <CheckBox x:Name="ProdutoICheckBox"
-                            IsChecked="True"
+                            IsChecked="False"
                             VerticalOptions="Center"/>
                 </StackLayout>
 
@@ -140,7 +140,7 @@
                             VerticalOptions="Center"
                             FontSize="20"/>
                     <CheckBox x:Name="ProdutoJCheckBox"
-                            IsChecked="True"
+                            IsChecked="False"
                             VerticalOptions="Center"/>
                 </StackLayout>
 
@@ -150,7 +150,7 @@
                             VerticalOptions="Center"
                             FontSize="20"/>
                     <CheckBox x:Name="ProdutoKCheckBox"
-                            IsChecked="True"
+                            IsChecked="False"
                             VerticalOptions="Center"/>
                 </StackLayout>
 
@@ -160,7 +160,7 @@
                             VerticalOptions="Center"
                             FontSize="20"/>
                     <CheckBox x:Name="ProdutoLCheckBox"
-                            IsChecked="True"
+                            IsChecked="False"
                             VerticalOptions="Center"/>
                 </StackLayout>
 
@@ -170,7 +170,7 @@
                             VerticalOptions="Center"
                             FontSize="20"/>
                     <CheckBox x:Name="ProdutoMCheckBox"
-                            IsChecked="True"
+                            IsChecked="False"
                             VerticalOptions="Center"
                             Color="#4F0CC4"/>
                 </StackLayout>
