@@ -33,16 +33,19 @@
                     BackgroundColor="White"
                     Padding="5"
                     Margin="0,0,0,10">
-                <Image Source="search_icon.png"
+                <Image Source="user.png"
                         WidthRequest="24"
                         HeightRequest="24"
-                        VerticalOptions="Center"/>
-                <Entry Placeholder="Procurar Cliente"
+                        VerticalOptions="Center"
+                        Margin="5,0,10,0"/>
+                <SearchBar Placeholder="Procurar Cliente"
                         BackgroundColor="White"
-                        TextColor="Black"/>
+                        TextColor="Black"
+                        WidthRequest="450"/>
             </StackLayout>
 
             <Button Text="Cadastrar Novo"
+                    FontFamily="coolvetica compressed hv "
                     BackgroundColor="#00FF00"
                     TextColor="White"
                     HorizontalOptions="Center"

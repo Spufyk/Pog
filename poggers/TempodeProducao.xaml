@@ -35,15 +35,16 @@
                         BackgroundColor="White"
                         Padding="5"
                         Margin="0,0,0,10">
-                    <Image Source="search_icon.png"
+                    <Image Source="user.png"
                             WidthRequest="24"
                             HeightRequest="24"
-                            VerticalOptions="Center"/>
+                            VerticalOptions="Center"
+                            Margin="4,0,10,0"/>
                     <SearchBar Placeholder="Procurar Cliente"
                                BackgroundColor="White"
                                Grid.Row="2"
                                HorizontalOptions="Center"
-                               WidthRequest="500"/>
+                               WidthRequest="450"/>
                 </StackLayout>
 
                 <Grid>
